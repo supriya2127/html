@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Form 1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">First Name </label>
+            <input type="text" required placeholder="Firstname" id="firstname" name"firstname">
+            <br>
+            <br>
+            <label for = "name">Last NAME</label>
+            <input type = "text" required placeholder="LastNAME" id="lastname" name="lastname">
+            <br>
+            <br>
+            <label for="Phone Number">Phone Number</label>
+            <input type="Phone Number" required placeholder="ex: 123456789" id="Phone Number" name="Phone Number">
+            <br><br>
+            <label for="email">email</label>
+            <input type="email" required placeholder="ex: name@gmail.com" id="email" name="email">
+            <br>
+            <br>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Educational details</legend>
+            <label for="dept">DEPARTMENT</label>
+            <br>
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+            <br>
+            <input type="radio" id="Mech" name="dept">
+            <label for="Mech">Mech</label>
+            <br>
+            <input type="radio" id="Civil" name="dept">
+            <label for="Civil">Civil</label>
+            <br>
+            <label for="yop">Year of Graduation</label>
+            <input list="yog" id="yop" name="yop">
+            <datalist id="yog">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+            <br>
+            <br>
+            <label for="sk">SKILLS</label>
+            <br>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS</label>
+            <br>
+            <input type="checkbox" id="Js" name="javascript">
+            <label for="javascript">JAVASCRIPT</label>
+            <br><br>
+        </fieldset>
+        <br>
+        <br>
+        <input type="SUBMIT">
+    </form>
+    
+</body>
+</html>
